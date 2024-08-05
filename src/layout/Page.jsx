@@ -27,7 +27,7 @@ const Page = () => {
                 className="xl:flex xl:flex-col xl:items-center xl:ease-in-out xl:duration-0"
               >
                 <a
-                  className="absolute xl:relative m-2 p-4 text-nowrap bg-button text-bg border-none xl:cursor-pointer rounded-md invisible xl:group-hover:visible xl:group-hover:transition-none"
+                  className="absolute xl:relative hover:bg-text hover:text-text2  m-2 p-4 text-nowrap bg-button text-bg border-none xl:cursor-pointer rounded-md invisible xl:group-hover:visible xl:group-hover:transition-none"
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"

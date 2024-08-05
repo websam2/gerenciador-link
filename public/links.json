@@ -63,6 +63,14 @@
 			{
 				"nameUrl": "Resumo de Fiscalização",
 				"url": "https://docs.google.com/spreadsheets/d/1VECkh_VIxnq6im-YIP7L8Spc07WHDE3HJ6HflKeDZy8/edit?usp=sharing"
+			}, 
+			{
+				"nameUrl": "SOE (interno)",
+				"url": "http://10.200.42.136/AC_Acompanhamento/"
+			},
+			{
+				"nameUrl": "SOE (externo)",
+				"url": "http://soe.daee.sp.gov.br/rq_portal/"
 			}
 		]
 	},
