@@ -1,19 +1,9 @@
 import { useEffect, useState } from "react";
 import logoDAEE from "/logoDAEE.svg";
+import APIOpenWather from "../components/APIOpenWather";
 import Button from "../components/Button";
 
 const Home = () => {
-	const [currentDateTime, setCurrentDateTime] = useState(
-		new Date().toLocaleString(),
-	);
-
-	useEffect(() => {
-		const intervalId = setInterval(() => {
-			setCurrentDateTime(new Date().toLocaleString());
-		}, 1000);
-
-		return () => clearInterval(intervalId); // Cleanup interval on component unmount
-	}, []);
 	return (
 		<section
 			className="flex flex-col items-center h-full xl:w-1/3 xl:justify-between relative bg-gradient-to-bl from-blue-dark to-blue text-center xl:cursor-pointer"
@@ -31,7 +21,7 @@ const Home = () => {
 				<Button href="https://sgi-websam2s-projects.vercel.app/">SGI</Button>
 			</div>
 
-			<p className="text-text text-lg">{currentDateTime}</p>
+			<APIOpenWather />
 		</section>
 	);
 };

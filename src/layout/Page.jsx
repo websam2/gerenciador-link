@@ -1,6 +1,7 @@
 // src/components/Home.jsx
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import ButtonPage from "../components/ButtonPage";
 
 const Page = () => {
   const [links, setLinks] = useState([]);
@@ -26,14 +27,7 @@ const Page = () => {
                 key={item.nameUrl}
                 className="xl:flex xl:flex-col xl:items-center xl:ease-in-out xl:duration-0"
               >
-                <a
-                  className="absolute xl:relative hover:bg-text hover:text-text2  m-2 p-4 text-nowrap bg-button text-bg border-none xl:cursor-pointer rounded-md invisible xl:group-hover:visible xl:group-hover:transition-none"
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {item.nameUrl}
-                </a>
+              <ButtonPage href={item.url} >{item.nameUrl}</ButtonPage>
               </li>
             ))}
           </ul>
