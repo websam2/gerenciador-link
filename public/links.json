@@ -28,7 +28,24 @@
 			{
 				"nameUrl": "Recadastramento",
 				"url": "https://sso.acesso.gov.br/login?client_id=idp.sp.gov.br&authorization_id=191235796ee"
+			},
+			{
+				"nameUrl": "DOE",
+				"url": "https://doe.sp.gov.br/sumario"
+			},
+			{
+				"nameUrl": "Benefícios",
+				"url": "https://governosp.sharepoint.com/sites/intranet.daee/SitePages/Benef%C3%ADcios-para-Colaboradores-do-DAEE.aspx?promotedState=0"
+			},
+			{
+				"nameUrl": "SIAFEM/SIAFISICO",
+				"url": "https://contabiliza-siafem.fazenda.sp.gov.br/SiafNet/login_contabiliza.xhtml"
+			},
+			{
+				"nameUrl": "RH",
+				"url": "http://10.20.40.10/consultas/"
 			}
+
 		]
 	},
 	{
@@ -58,7 +75,12 @@
 			{
 				"url": "http://www.cobrancaagua.daee.sp.gov.br/Publico/Login.aspx",
 				"nameUrl": "Sistema de Cobrança"
+			}, 
+			{
+				"url": "https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/Cnpjreva_Solicitacao.asp",
+				"nameUrl": "Comprovante de Inscrição"
 			}
+
 		]
 	},
 	{
@@ -101,6 +123,14 @@
 			{
 				"nameUrl": "SEI",
 				"url": "https://sei.sp.gov.br/sip/login.php?sigla_orgao_sistema=GESP&sigla_sistema=SEI&infra_url=L3NlaS8="
+			},
+			{
+				"nameUrl": "SPdoc",
+				"url": "http://www.sistema.spdoc.sp.gov.br/"
+			},
+			{
+				"nameUrl": "SemPapel",
+				"url": "https://www.documentos.spsempapel.sp.gov.br/siga/public/app/login?cont=https://www.documentos.spsempapel.sp.gov.br/siga/app/principal"
 			}
 		]
 	},
