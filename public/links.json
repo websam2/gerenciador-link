@@ -1,55 +1,6 @@
 [
 	{
 		"id": 1,
-		"name": "ADMINISTRATIVO",
-		"imagem": "",
-		"links": [
-			{
-				"nameUrl": "Lista telefonica",
-				"url": "https://governosp-my.sharepoint.com/:x:/g/personal/samuel_zezilia_daee_sp_gov_br/EUcnCBvDXAZAidZVY81iIHQB28dUoq9H-A-r6Rqhyq7Yfw?e=PP34T7"
-			},
-			{
-				"nameUrl": "Demonstrativo de Pagamento",
-				"url": "https://www.e-folha.prodesp.sp.gov.br/desc_dempagto/entrada.asp?cliente=029"
-			},
-			{
-				"nameUrl": "Rede IAMSP",
-				"url": "https://governosp-my.sharepoint.com/:x:/g/personal/samuel_zezilia_daee_sp_gov_br/EYg0gR9iKGpDhLoeDaptmxoBKtvTFaP1-RQ2jyj_sThyTw?e=9feLXO"
-			},
-			{
-				"nameUrl": "SAM",
-				"url": "https://www.sam.prodesp.sp.gov.br/"
-			},
-			{
-				"nameUrl": "Diárias",
-				"url": "http://10.20.40.10/consultas/index.php"
-			},
-
-			{
-				"nameUrl": "Recadastramento",
-				"url": "https://sso.acesso.gov.br/login?client_id=idp.sp.gov.br&authorization_id=191235796ee"
-			},
-			{
-				"nameUrl": "DOE",
-				"url": "https://doe.sp.gov.br/sumario"
-			},
-			{
-				"nameUrl": "Benefícios",
-				"url": "https://governosp.sharepoint.com/sites/intranet.daee/SitePages/Benef%C3%ADcios-para-Colaboradores-do-DAEE.aspx?promotedState=0"
-			},
-			{
-				"nameUrl": "SIAFEM/SIAFISICO",
-				"url": "https://contabiliza-siafem.fazenda.sp.gov.br/SiafNet/login_contabiliza.xhtml"
-			},
-			{
-				"nameUrl": "RH",
-				"url": "http://10.20.40.10/consultas/"
-			}
-
-		]
-	},
-	{
-		"id": 2,
 		"name": "CBH-RB",
 		"imagem": "",
 		"links": [
@@ -68,7 +19,7 @@
 		]
 	},
 	{
-		"id": 3,
+		"id": 2,
 		"name": "COBRANÇA",
 		"imagem": "",
 		"links": [
@@ -84,12 +35,36 @@
 		]
 	},
 	{
-		"id": 4,
+		"id": 3,
 		"name": "HIDROLOGIA",
 		"imagem": "",
 		"links": [
 			{ "url": "https://www.saisp.br/geral/logon.jsp", "nameUrl": "SAISP" },
 			{ "url": "https://cth.daee.sp.gov.br/sibh/", "nameUrl": "SIBH" }
+		]
+	},
+	{
+		"id": 4,
+		"name": "FINANCEIRO",
+		"imagem": "",
+		"links": [
+			{
+				"nameUrl": "Demonstrativo de Pagamento",
+				"url": "https://www.e-folha.prodesp.sp.gov.br/desc_dempagto/entrada.asp?cliente=029"
+			},
+			{
+				"nameUrl": "SAM",
+				"url": "https://www.sam.prodesp.sp.gov.br/"
+			},
+			{
+				"nameUrl": "Diárias",
+				"url": "http://10.20.40.10/consultas/index.php"
+			},
+			{
+				"nameUrl": "SIAFEM/SIAFISICO",
+				"url": "https://contabiliza-siafem.fazenda.sp.gov.br/SiafNet/login_contabiliza.xhtml"
+			}
+
 		]
 	},
 	{
@@ -136,6 +111,38 @@
 	},
 	{
 		"id": 7,
+		"name": "RH",
+		"imagem": "",
+		"links": [
+			{
+				"nameUrl": "Lista telefonica",
+				"url": "https://governosp-my.sharepoint.com/:x:/g/personal/samuel_zezilia_daee_sp_gov_br/EUcnCBvDXAZAidZVY81iIHQB28dUoq9H-A-r6Rqhyq7Yfw?e=PP34T7"
+			},
+			{
+				"nameUrl": "Rede IAMSP",
+				"url": "https://governosp-my.sharepoint.com/:x:/g/personal/samuel_zezilia_daee_sp_gov_br/EYg0gR9iKGpDhLoeDaptmxoBKtvTFaP1-RQ2jyj_sThyTw?e=9feLXO"
+			},
+			{
+				"nameUrl": "Recadastramento",
+				"url": "https://sso.acesso.gov.br/login?client_id=idp.sp.gov.br&authorization_id=191235796ee"
+			},
+			{
+				"nameUrl": "DOE",
+				"url": "https://doe.sp.gov.br/sumario"
+			},
+			{
+				"nameUrl": "Benefícios",
+				"url": "https://governosp.sharepoint.com/sites/intranet.daee/SitePages/Benef%C3%ADcios-para-Colaboradores-do-DAEE.aspx?promotedState=0"
+			},
+			{
+				"nameUrl": "Consulta",
+				"url": "http://10.20.40.10/consultas/"
+			}
+
+		]
+	},
+	{
+		"id": 8,
 		"name": "TECNOLOGIA",
 		"imagem": "",
 		"links": [
@@ -148,6 +155,10 @@
 			{
 				"nameUrl": "Acesso Remoto",
 				"url": "https://anydesk.com/pt/downloads/thank-you?dv=win_exe"
+			},
+			{
+				"nameUrl": "SIG Outorgas",
+				"url": "https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_daee_sp_gov_br/EiFbJeOv4E5PihESOxnoBkUBKXIlFcpe1ZGBZeJdvqNu1Q?e=d20moW"
 			}
 		]
 	}
