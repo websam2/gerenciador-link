@@ -3,6 +3,7 @@ import logoDAEE from "/logoDAEE.svg";
 import Imagem from "../assets/images/Encontro com as ouvidorias.jpg";
 import APIOpenWather from "../components/APIOpenWather";
 import Button from "../components/Button";
+import Accordion from "../components/Accordion";
 
 const Home = () => {
 	const [isFullScreen, setIsFullScreen] = useState(false);
@@ -41,7 +42,9 @@ const Home = () => {
 					onClick={openFullScreen}
 				/>
 			</div>
-			<APIOpenWather />
+
+			<Accordion/>
+			{/* <APIOpenWather /> */}
 
 			{isFullScreen && (
 				<div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
