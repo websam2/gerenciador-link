@@ -14,7 +14,7 @@ const Page = () => {
   []);
 
   return (
-    <div className="flex flex-col xl:flex-row xl:h-screen">
+    <section className="flex flex-col xl:flex-row xl:h-screen xl:w-full">
       {links.map((section) => (
         <section
           key={section.id}
@@ -42,23 +42,8 @@ const Page = () => {
           </div>
         </section>
       ))}
-    </div>
+    </section>
   );
-};
-
-Page.propTypes = {
-  links: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      name: PropTypes.string.isRequired,
-      links: PropTypes.arrayOf(
-        PropTypes.shape({
-          url: PropTypes.string.isRequired,
-          nameUrl: PropTypes.string.isRequired,
-        })
-      ).isRequired,
-    })
-  ),
 };
 
 export default Page;
