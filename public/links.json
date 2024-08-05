@@ -4,8 +4,8 @@
 		"name": "ADMINISTRATIVO",
 		"imagem": "",
 		"links": [
-			{ "url": "", "nameUrl": "Link 1" },
-			{ "url": "", "nameUrl": "Link 2" },
+			{ "url": "https://governosp-my.sharepoint.com/:x:/g/personal/samuel_zezilia_daee_sp_gov_br/EUcnCBvDXAZAidZVY81iIHQB28dUoq9H-A-r6Rqhyq7Yfw?e=PP34T7", "nameUrl": "Telefone/Ramal" },
+			{ "url": "https://governosp-my.sharepoint.com/:x:/g/personal/samuel_zezilia_daee_sp_gov_br/EYg0gR9iKGpDhLoeDaptmxoBKtvTFaP1-RQ2jyj_sThyTw?e=9feLXO", "nameUrl": "Rede IASP" },
 			{ "url": "", "nameUrl": "Link 3" },
 			{ "url": "", "nameUrl": "Link 4" },
 			{ "url": "", "nameUrl": "Link 5" }
@@ -16,7 +16,7 @@
 		"name": "CBH-RB",
 		"imagem": "",
 		"links": [
-			{ "url": "", "nameUrl": "Link 1" },
+			{ "url": "Site Oficial", "nameUrl": "https://comiterb.com.br/" },
 			{ "url": "", "nameUrl": "Link 2" },
 			{ "url": "", "nameUrl": "Link 3" },
 			{ "url": "", "nameUrl": "Link 4" },
@@ -52,7 +52,7 @@
 		"name": "OUTORGA",
 		"imagem": "",
 		"links": [
-			{ "url": "", "nameUrl": "Link 1" },
+			{ "url": "https://docs.google.com/spreadsheets/d/1VECkh_VIxnq6im-YIP7L8Spc07WHDE3HJ6HflKeDZy8/edit?usp=sharing", "nameUrl": "Resumo de Fiscalização" },
 			{ "url": "", "nameUrl": "Link 2" },
 			{ "url": "", "nameUrl": "Link 3" },
 			{ "url": "", "nameUrl": "Link 4" },
@@ -64,7 +64,7 @@
 		"name": "PROTOCOLO",
 		"imagem": "",
 		"links": [
-			{ "url": "", "nameUrl": "Link 1" },
+			{ "url": "SEI", "nameUrl": "https://sei.sp.gov.br/sip/login.php?sigla_orgao_sistema=GESP&sigla_sistema=SEI&infra_url=L3NlaS8=" },
 			{ "url": "", "nameUrl": "Link 2" },
 			{ "url": "", "nameUrl": "Link 3" },
 			{ "url": "", "nameUrl": "Link 4" },
@@ -76,8 +76,8 @@
 		"name": "TECNOLOGIA",
 		"imagem": "",
 		"links": [
-			{ "url": "", "nameUrl": "Link 1" },
-			{ "url": "", "nameUrl": "Link 2" },
+			{ "url": "Assinatura do E-mail", "nameUrl": "https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_daee_sp_gov_br/EpQkIJaCDGNFvJUWZHYqqxgBtkp_HHSDUQjwIK_AboRPkQ?e=F63QcC" },
+			{ "url": "QGIS", "nameUrl": "https://qgis.org/download/" },
 			{ "url": "", "nameUrl": "Link 3" },
 			{ "url": "", "nameUrl": "Link 4" },
 			{ "url": "", "nameUrl": "Link 5" }
