@@ -1,7 +1,7 @@
 function buttonPage({ href, children }) {
 	return (
 		<a
-			className="absolute shadow-md xl:relative hover:bg-red-dark m-2 p-4 text-nowrap bg-button text-bg border-none xl:cursor-pointer rounded-md invisible xl:group-hover:visible xl:group-hover:transition-none "
+			className="absolute xl:flex xl:justify-center shadow-md xl:relative hover:bg-red-dark w-full my-2 p-2 text-wrap bg-button text-bg xl:cursor-pointer invisible xl:group-hover:visible xl:group-hover:transition-none "
 			href={href}
 			target="_blank"
 			rel="noopener noreferrer"
