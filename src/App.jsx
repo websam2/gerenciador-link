@@ -1,13 +1,13 @@
-function App() {
+import Home from "./layout/Home"
+import Page from "./layout/Page"
 
 
+function App () {
   return (
-    <>
-      <p className="text-6xl">
-        Teste
-      </p>
-    </>
+    <div className="flex flex-col xl:flex-row w-screen h-screen">
+      <Home/>
+      <Page/>
+    </div>
   )
 }
-
 export default App
