@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import logoDAEE from "/logoDAEE.svg";
+import Button from "../components/Button";
 
 const Home = () => {
 	const [currentDateTime, setCurrentDateTime] = useState(
@@ -23,30 +24,11 @@ const Home = () => {
 				Todos os sites em um único só lugar!
 			</h1>
 			<div>
-				<a
-					className="hover:bg-text hover:text-text2 m-2 p-4 text-nowrap bg-button text-bg border-none xl:cursor-pointer rounded-md "
-					href="https://governosp.sharepoint.com/sites/intranet.daee/SitePages/TopicHome.aspx"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
+				<Button href="https://governosp.sharepoint.com/sites/intranet.daee/SitePages/TopicHome.aspx">
 					Intranet
-				</a>
-				<a
-					className="hover:bg-text hover:text-text2 m-2 p-4 text-nowrap bg-button text-bg border-none xl:cursor-pointer rounded-md "
-					href="https://outlook.office.com/mail/"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					E-mail
-				</a>
-				<a
-					className="hover:bg-text hover:text-text2 m-2 p-4 text-nowrap bg-button text-bg border-none xl:cursor-pointer rounded-md "
-					href="https://sgi-websam2s-projects.vercel.app/"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					SGI
-				</a>
+				</Button>
+				<Button href="https://outlook.office.com/mail/">E-mail</Button>
+				<Button href="https://sgi-websam2s-projects.vercel.app/">SGI</Button>
 			</div>
 
 			<p className="text-text text-lg">{currentDateTime}</p>
