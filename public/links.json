@@ -39,6 +39,14 @@
 			{
 				"nameUrl": "Site Oficial",
 				"url": "https://comiterb.com.br/"
+			},
+			{
+				"nameUrl": "SigRH",
+				"url": "https://sigrh.sp.gov.br/cbhrb/apresentacao"
+			},
+			{
+				"nameUrl": "SinFEHIDRO",
+				"url": "https://sigam.ambiente.sp.gov.br/sigam3/Default.aspx?idPagina=16854"
 			}
 		]
 	},
@@ -47,8 +55,10 @@
 		"name": "COBRANÇA",
 		"imagem": "",
 		"links": [
-			{ "url": "", "nameUrl": "Link 1" },
-			{ "url": "", "nameUrl": "Link 2" }
+			{
+				"url": "http://www.cobrancaagua.daee.sp.gov.br/Publico/Login.aspx",
+				"nameUrl": "Sistema de Cobrança"
+			}
 		]
 	},
 	{
@@ -56,8 +66,8 @@
 		"name": "HIDROLOGIA",
 		"imagem": "",
 		"links": [
-			{ "url": "", "nameUrl": "Link 1" },
-			{ "url": "", "nameUrl": "Link 2" }
+			{ "url": "https://www.saisp.br/geral/logon.jsp", "nameUrl": "SAISP" },
+			{ "url": "https://cth.daee.sp.gov.br/sibh/", "nameUrl": "SIBH" }
 		]
 	},
 	{
@@ -76,6 +86,10 @@
 			{
 				"nameUrl": "SOE (externo)",
 				"url": "http://soe.daee.sp.gov.br/rq_portal/"
+			},
+			{
+				"nameUrl": "SiDeCC",
+				"url": "http://sidecc.daee.sp.gov.br/brb/"
 			}
 		]
 	},
@@ -100,7 +114,11 @@
 				"url": "https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_daee_sp_gov_br/EpQkIJaCDGNFvJUWZHYqqxgBtkp_HHSDUQjwIK_AboRPkQ?e=F63QcC"
 			},
 			{ "nameUrl": "QGIS", "url": "https://qgis.org/download/" },
-			{ "nameUrl": "Quick", "url": "http://10.20.40.235/portal/quick.php" }
+			{ "nameUrl": "Quick", "url": "http://10.20.40.235/portal/quick.php" },
+			{
+				"nameUrl": "Acesso Remoto",
+				"url": "https://anydesk.com/pt/downloads/thank-you?dv=win_exe"
+			}
 		]
 	}
 ]

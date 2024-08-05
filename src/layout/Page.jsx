@@ -1,6 +1,4 @@
-// src/components/Home.jsx
 import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import ButtonPage from "../components/ButtonPage";
 
 const Page = () => {
@@ -9,10 +7,16 @@ const Page = () => {
   useEffect(() => {
     fetch('/links.json')
       .then((response) => response.json())
-      .then((data) => setLinks(data))    
+      .then((data) => {
+        // Ordena os links de cada seção alfabeticamente pelo nameUrl
+        const sortedData = data.map(section => ({
+          ...section,
+          links: [...section.links].sort((a, b) => a.nameUrl.localeCompare(b.nameUrl))
+        }));
+        setLinks(sortedData);
+      })    
       .catch((error) => console.error('Error fetching the links:', error));      
-  }, 
-  []);
+  }, []);
 
   return (
     <section className="flex flex-col xl:flex-row xl:h-screen xl:w-full">
@@ -27,7 +31,7 @@ const Page = () => {
                 key={item.nameUrl}
                 className="xl:flex xl:flex-col xl:items-center xl:ease-in-out xl:duration-0"
               >
-              <ButtonPage href={item.url} >{item.nameUrl}</ButtonPage>
+                <ButtonPage href={item.url}>{item.nameUrl}</ButtonPage>
               </li>
             ))}
           </ul>

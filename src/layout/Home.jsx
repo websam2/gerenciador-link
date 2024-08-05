@@ -6,10 +6,10 @@ import Button from "../components/Button";
 const Home = () => {
 	return (
 		<section
-			className="flex flex-col items-center h-full xl:w-1/3 xl:justify-between relative bg-gradient-to-bl from-blue-dark to-blue text-center xl:cursor-pointer"
+			className="flex flex-col items-center h-full xl:w-1/3 xl:justify-between relative bg-gradient-to-bl from-blue-dark to-blue text-center"
 			id="listItems"
 		>
-			<img className="m-4 w-32 xl:cursor-pointer" src={logoDAEE} alt="DAEE" />
+			<img className="m-4 w-32" src={logoDAEE} alt="DAEE" />
 			<h1 className="text-wrap font-bold text-text text-2xl m-4">
 				Todos os sites em um único só lugar!
 			</h1>
