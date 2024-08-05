@@ -39,6 +39,14 @@ const Home = () => {
 				>
 					E-mail
 				</a>
+				<a
+					className="hover:bg-text hover:text-text2 m-2 p-4 text-nowrap bg-button text-bg border-none xl:cursor-pointer rounded-md "
+					href="https://sgi-websam2s-projects.vercel.app/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					SGI
+				</a>
 			</div>
 
 			<p className="text-text text-lg">{currentDateTime}</p>
