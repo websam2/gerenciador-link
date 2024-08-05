@@ -20,7 +20,6 @@ const Home = () => {
 				<Button href="https://outlook.office.com/mail/">E-mail</Button>
 				<Button href="https://sgi-websam2s-projects.vercel.app/">SGI</Button>
 			</div>
-
 			<APIOpenWather />
 		</section>
 	);

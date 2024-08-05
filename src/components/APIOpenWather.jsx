@@ -24,8 +24,6 @@ export default function APITempoLocal() {
 					name: city.name,
 					temperature: res.data.main.temp,
 					weather: res.data.weather[0].description,
-					tempMin: res.data.main.temp_min,
-					tempMax: res.data.main.temp_max,
 					icon: res.data.weather[0].icon,
 				});
 
@@ -70,21 +68,6 @@ export default function APITempoLocal() {
 							</div>
 							<div>
 								{nomeDoDiaDaSemana} - {dia}/{mes}/{ano}
-							</div>
-						</div>
-
-						<div className="flex flex-col m-2">
-							<div>
-								<div>Mínima:</div>
-								<div>
-									<h2>{data.tempMin.toFixed(0)}ºC</h2>
-								</div>
-							</div>
-							<div>
-								<div>Máxima:</div>
-								<div>
-									<h2>{data.tempMax.toFixed(0)}ºC</h2>
-								</div>
 							</div>
 						</div>
 					</div>

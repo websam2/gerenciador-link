@@ -31,7 +31,7 @@ const Page = () => {
               </li>
             ))}
           </ul>
-          <div className="absolute inset-y-0 right-0 text-nowrap text-center font-semibold p-4 bg-red text-bg uppercase xl:inset-y-auto xl:right-auto xl:bottom-40 xl:rotate-90 xl:text-2xl">
+          <div className="absolute inset-y-0 right-0 text-nowrap text-center font-semibold p-4 bg-red-dark text-bg uppercase xl:inset-y-auto xl:right-auto xl:bottom-40 xl:rotate-90 xl:text-2xl">
             {section.name}
           </div>
         </section>
