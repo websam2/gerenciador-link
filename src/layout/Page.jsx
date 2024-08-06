@@ -25,13 +25,13 @@ const Page = () => {
 			{links.map((section) => (
 				<section
 					key={section.id}
-					className="group flex flex-row xl:relative items-center xl:justify-center hover:w-full xl:flex-col xl:w-1/2 xl:bg-gradient-to-r xl:from-text xl:to-bg xl:hover:from-gray-light xl:hover:to-gray xl:cursor-pointer xl:hover:brightness-120 xl:hover:shadow-lg xl:transition-all"
+					className="group xl:flex xl:relative items-center xl:justify-center hover:w-full xl:flex-col xl:w-1/2 xl:bg-gradient-to-r xl:from-text xl:to-bg xl:hover:from-gray-light xl:hover:to-gray xl:cursor-pointer xl:hover:brightness-120 xl:hover:shadow-lg xl:transition-all"
 				>
-					<ul className="sm:w-full md:w-1/2 xl:w-full">
+					<ul className="md:w-1/2 xl:w-full">
 						{section.links.map((item) => (
 							<li
 								key={item.nameUrl}
-								className="xl:flex xl:flex-col xl:items-center xl:ease-in-out xl:duration-0"
+								className="flex xl:flex-col xl:items-center xl:ease-in-out xl:duration-0"
 							>
 								<ButtonPage href={item.url}>{item.nameUrl}</ButtonPage>
 							</li>
