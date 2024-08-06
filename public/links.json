@@ -15,7 +15,7 @@
 			{
 				"nameUrl": "SinFEHIDRO",
 				"url": "https://sigam.ambiente.sp.gov.br/sigam3/Default.aspx?idPagina=16854"
-			}, 	
+			},
 			{
 				"nameUrl": "Canal no Youtube",
 				"url": "https://www.youtube.com/@cbhrb"
@@ -24,7 +24,6 @@
 				"nameUrl": "Relatório - Alto Tietê",
 				"url": "https://app.powerbi.com/view?r=eyJrIjoiNWFkZDJjMzktZDgxMC00YmJlLWJkZGMtZTA0MWUxOWE3NzRmIiwidCI6IjlhOTFhYWU5LTM1ZWItNGE5OC1iNWIzLWU5OTIwZmM5ZjY3ZSJ9"
 			}
-			
 		]
 	},
 	{
@@ -35,12 +34,11 @@
 			{
 				"url": "http://www.cobrancaagua.daee.sp.gov.br/Publico/Login.aspx",
 				"nameUrl": "Sistema de Cobrança"
-			}, 
+			},
 			{
 				"url": "https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/Cnpjreva_Solicitacao.asp",
 				"nameUrl": "Comprovante de Inscrição"
 			}
-
 		]
 	},
 	{
@@ -54,7 +52,7 @@
 	},
 	{
 		"id": 4,
-		"name": "FINANCEIRO",
+		"name": "ADMINISTRAÇÃO",
 		"imagem": "",
 		"links": [
 			{
@@ -73,7 +71,6 @@
 				"nameUrl": "SIAFEM/SIAFISICO",
 				"url": "https://contabiliza-siafem.fazenda.sp.gov.br/SiafNet/login_contabiliza.xhtml"
 			}
-
 		]
 	},
 	{
@@ -96,6 +93,12 @@
 			{
 				"nameUrl": "SiDeCC",
 				"url": "http://sidecc.daee.sp.gov.br/brb/"
+			},
+			{ "nameUrl": "QGIS", "url": "https://qgis.org/download/" },
+			{ "nameUrl": "Quick", "url": "http://10.20.40.235/portal/quick.php" },
+			{
+				"nameUrl": "SIG Outorgas",
+				"url": "https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_daee_sp_gov_br/EiFbJeOv4E5PihESOxnoBkUBKXIlFcpe1ZGBZeJdvqNu1Q?e=d20moW"
 			}
 		]
 	},
@@ -136,10 +139,6 @@
 				"url": "https://sso.acesso.gov.br/login?client_id=idp.sp.gov.br&authorization_id=191235796ee"
 			},
 			{
-				"nameUrl": "DOE",
-				"url": "https://doe.sp.gov.br/sumario"
-			},
-			{
 				"nameUrl": "Benefícios",
 				"url": "https://governosp.sharepoint.com/sites/intranet.daee/SitePages/Benef%C3%ADcios-para-Colaboradores-do-DAEE.aspx?promotedState=0"
 			},
@@ -147,7 +146,6 @@
 				"nameUrl": "Consulta",
 				"url": "http://10.20.40.10/consultas/"
 			}
-
 		]
 	},
 	{
@@ -159,15 +157,10 @@
 				"nameUrl": "Assinatura para E-mail",
 				"url": "https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_daee_sp_gov_br/EpQkIJaCDGNFvJUWZHYqqxgBtkp_HHSDUQjwIK_AboRPkQ?e=F63QcC"
 			},
-			{ "nameUrl": "QGIS", "url": "https://qgis.org/download/" },
-			{ "nameUrl": "Quick", "url": "http://10.20.40.235/portal/quick.php" },
+
 			{
 				"nameUrl": "Acesso Remoto",
 				"url": "https://anydesk.com/pt/downloads/thank-you?dv=win_exe"
-			},
-			{
-				"nameUrl": "SIG Outorgas",
-				"url": "https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_daee_sp_gov_br/EiFbJeOv4E5PihESOxnoBkUBKXIlFcpe1ZGBZeJdvqNu1Q?e=d20moW"
 			}
 		]
 	}

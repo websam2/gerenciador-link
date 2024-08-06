@@ -23,7 +23,7 @@ const Page = () => {
       {links.map((section) => (
         <section
           key={section.id}
-          className="group relative flex flex-row items-center hover:w-full xl:flex-col xl:w-1/2 xl:bg-gradient-to-r xl:from-text xl:to-bg xl:hover:from-gray-light xl:hover:to-gray xl:cursor-pointer xl:hover:brightness-120 xl:hover:shadow-lg xl:transition-all"
+          className="group relative flex flex-row items-center xl:justify-center hover:w-full xl:flex-col xl:w-1/2 xl:bg-gradient-to-r xl:from-text xl:to-bg xl:hover:from-gray-light xl:hover:to-gray xl:cursor-pointer xl:hover:brightness-120 xl:hover:shadow-lg xl:transition-all"
         >
           <ul className="sm:w-full md:w-1/2 xl:w-full">
             {section.links.map((item) => (
