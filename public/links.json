@@ -194,6 +194,14 @@
 			{
 				"nameUrl": "WORD para PDF",
 				"url": "https://smallpdf.com/pt/word-para-pdf"
+			}, 
+			{
+				"nameUrl": "Google Earth",
+				"url": "https://earth.google.com/web/"
+			},
+			{
+				"nameUrl": "Teams",
+				"url": "https://teams.microsoft.com/v2/"
 			}
 		]
 	}

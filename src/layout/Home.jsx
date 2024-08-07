@@ -43,7 +43,7 @@ const Home = () => {
 				<p className="text-base text-bg">MAIS ACESSADOS</p>
 
 				<div className="flex w-full space-x-4 p-2">
-					<Button href="Intranet">Intranet</Button>
+					<Button href="https://governosp.sharepoint.com/sites/intranet.daee/SitePages/TopicHome.aspx">Intranet</Button>
 					<Button href="https://outlook.office.com/mail/">E-mail</Button>
 					<Button href="https://sgi-websam2s-projects.vercel.app/">SGI</Button>
 					<Button href="https://doe.sp.gov.br/sumario">DOE</Button>
