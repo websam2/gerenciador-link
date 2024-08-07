@@ -5,6 +5,7 @@ import Button from "../components/Button";
 
 import Sei from "../assets/images/Agora sou SEI.jpg";
 import Encontro from "../assets/images/Encontro com as ouvidorias.jpg";
+import FavoriteButton from "../components/FavoriteButton";
 
 const images = [Encontro, Sei];
 
@@ -30,6 +31,7 @@ const Home = () => {
 
 	return (
 		<section className="flex flex-col p-4 items-center h-full xl:w-1/3 xl:justify-between relative bg-gradient-to-bl from-blue-dark to-blue text-center">
+			<FavoriteButton/>
 			<div className="flex flex-col items-center">
 				<img className="w-12 xl:w-20 mb-4" src={logoDAEE} alt="DAEE" />
 				<h1 className="text-wrap font-bold text-text text-md">
