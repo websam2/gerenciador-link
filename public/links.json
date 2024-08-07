@@ -5,7 +5,7 @@
 		"imagem": "",
 		"links": [
 			{
-				"nameUrl": "Site Oficial",
+				"nameUrl": "Site do CBH-RB",
 				"url": "https://comiterb.com.br/"
 			},
 			{
@@ -143,6 +143,10 @@
 			{
 				"nameUrl": "SemPapel",
 				"url": "https://www.documentos.spsempapel.sp.gov.br/siga/public/app/login?cont=https://www.documentos.spsempapel.sp.gov.br/siga/app/principal"
+			},
+			{
+				"nameUrl": "Notas Informativas",
+				"url": "https://governosp-my.sharepoint.com/:x:/r/personal/samuel_zezilia_daee_sp_gov_br/Documents/DAEE/SEI%20-%20INFORMES.xlsx?d=w444457b010f54349b7a7be996013b026&csf=1&web=1&e=UyvHYH"
 			}
 		]
 	},
@@ -152,7 +156,7 @@
 		"imagem": "",
 		"links": [
 			{
-				"nameUrl": "Lista telefonica",
+				"nameUrl": "Lista Telefônica",
 				"url": "https://governosp-my.sharepoint.com/:x:/g/personal/samuel_zezilia_daee_sp_gov_br/EUcnCBvDXAZAidZVY81iIHQB28dUoq9H-A-r6Rqhyq7Yfw?e=PP34T7"
 			},
 			{
@@ -179,7 +183,7 @@
 		"imagem": "",
 		"links": [
 			{
-				"nameUrl": "Assinatura para E-mail",
+				"nameUrl": "Assinatura de E-mail",
 				"url": "https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_daee_sp_gov_br/EpQkIJaCDGNFvJUWZHYqqxgBtkp_HHSDUQjwIK_AboRPkQ?e=F63QcC"
 			},
 
