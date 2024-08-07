@@ -47,6 +47,7 @@ const Home = () => {
 					<Button href="https://outlook.office.com/mail/">E-mail</Button>
 					<Button href="https://sgi-websam2s-projects.vercel.app/">SGI</Button>
 					<Button href="https://doe.sp.gov.br/sumario">DOE</Button>
+					<Button href="https://www.imprensaoficial.com.br/">Imprensa</Button>
 				</div>
 			</div>
 

@@ -38,7 +38,28 @@
 			{
 				"url": "https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/Cnpjreva_Solicitacao.asp",
 				"nameUrl": "Comprovante de Inscrição"
+			},
+			{
+				"url": "https://www.fazenda.sp.gov.br/cadin_estadual/Pages/CadinLogon.aspx",
+				"nameUrl": "CADIN"
+			},
+			{
+				"url": "https://comiterb.com.br/cobranca-pelo-o-uso-da-agua/#content",
+				"nameUrl": "CBH-RB - Cobrança"
+			},
+			{
+				"url": "https://sigrh.sp.gov.br/cbhrb/cobrancapelousodaagua",
+				"nameUrl": "SigRH - Cobrança"
+			},
+			{
+				"url": "https://www63.bb.com.br/portalbb/boleto/boletos/hc21e,802,3322,10343,2,0,1.bbx?cid=829363",
+				"nameUrl": "Banco do Brasil - Boleto"
+			},
+			{
+				"url": "http://homolog-cobrancaagua.daee.sp.gov.br/publico/Login.aspx",
+				"nameUrl": "Sistema de Cobrança (homologação)"
 			}
+		
 		]
 	},
 	{
@@ -99,6 +120,10 @@
 			{
 				"nameUrl": "SIG Outorgas",
 				"url": "https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_daee_sp_gov_br/EiFbJeOv4E5PihESOxnoBkUBKXIlFcpe1ZGBZeJdvqNu1Q?e=d20moW"
+			},
+			{
+				"nameUrl": "Calculadora Geográfica",
+				"url": "http://www.dpi.inpe.br/calcula/"
 			}
 		]
 	},
@@ -161,6 +186,14 @@
 			{
 				"nameUrl": "Acesso Remoto",
 				"url": "https://anydesk.com/pt/downloads/thank-you?dv=win_exe"
+			},
+			{
+				"nameUrl": "PDF para WORD",
+				"url": "https://smallpdf.com/pt/pdf-para-word"
+			}, 
+			{
+				"nameUrl": "WORD para PDF",
+				"url": "https://smallpdf.com/pt/word-para-pdf"
 			}
 		]
 	}
