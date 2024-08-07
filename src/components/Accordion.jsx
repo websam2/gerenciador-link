@@ -16,7 +16,7 @@ function Button() {
 				className="relative flex items-center w-full p-4 transition-all ease-in cursor-pointer group"
 				onClick={handleToggle}
 			>
-				<h1 className="font-bold text-text text-xl mr-4">
+				<h1 className="font-bold text-text xl:text-xl mr-4">
 					ANIVERSARIANTES DE AGOSTO
 				</h1>
 				<FontAwesomeIcon
