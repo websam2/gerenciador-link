@@ -1,0 +1,90 @@
+[
+	{
+		"id": 1,
+		"banner": "image/go-quadra-admin.png",
+		"titulo": "Go Quadra",
+		"descricao": "Sistema administrativo para utilizar o aplicativo Go Quadra, que é um aplicativo de reserva de quadras esportivas. Tecnologias utilizadas: Vue3, Vite, DaisyUI, FormKit, TailwindCSS e Axios.",
+		"tecnologia": {
+			"vue": "icon/vue.svg",
+			"vite": "icon/vite.svg",
+			"tailwind": "icon/tailwind.svg"
+		},
+		"acesso": {
+			"deploy": "https://goquadra-admin.vercel.app/",
+			"github": "https://github.com/websam2/goquadra-admin"
+		}
+	},
+	{
+		"id": 2,
+		"banner": "image/lp-clube-do-rei.png",
+		"titulo": "Clube do Rei",
+		"descricao": "Landing Page para o Clube do Rei, comercio local da cidade de Registro. Tecnologias utilizadas: Vue3, Vite, TailwindCSS e Axios.",
+		"tecnologia": {
+			"vue": "icon/vue.svg",
+			"vite": "icon/vite.svg",
+			"tailwind": "icon/tailwind.svg"
+		},
+		"acesso": {
+			"deploy": "https://lp-clube-do-rei.vercel.app/",
+			"github": "https://github.com/websam2/LP-ClubeDoRei"
+		}
+	},
+	{
+		"id": 3,
+		"banner": "image/projeto-pipoca-agil.png",
+		"titulo": "Pipoca Ágil",
+		"descricao": "Projeto voluntário para o canal de podcast do Pipoca Ágil. Tive a oportunidade de participar dentro uma equipe de várias áreas de tecnologias. Tecnologias utilizadas: React, Next, TailwindCSS e DaisyUI.",
+		"tecnologia": {
+			"react": "icon/react.svg",
+			"next": "icon/next.svg",
+			"tailwind": "icon/tailwind.svg"
+		},
+		"acesso": {
+			"deploy": "https://projeto-pipoca-agil.vercel.app/",
+			"github": "https://github.com/websam2/projeto-pipoca-agil"
+		}
+	},
+	{
+		"id": 4,
+		"banner": "image/sistema-monitoramento.png",
+		"titulo": "Hidro Tempo",
+		"descricao": "É um dashboard de Sistema de Monitoramento Fluvial que utiliza a API da Agência Nacional de Águas e Saneamento Básico (ANA) para exibir todos os postos instalados no Vale do Ribeira. O objetivo deste projeto é facilitar o acesso às informações sobre os níveis dos rios no Vale do Ribeira.",
+		"tecnologia": {
+			"react": "icon/react.svg",
+			"tailwind": "icon/tailwind.svg"
+		},
+		"acesso": {
+			"deploy": "https://hidro-tempo.vercel.app/",
+			"github": "https://github.com/websam2/hidro-tempo"
+		}
+	},
+	{
+		"id": 5,
+		"banner": "image/sgi.png",
+		"titulo": "SGI - Sistema de Gestão Integrado",
+		"descricao": "Reúne todos os projetos feitos em BI. Essas ferramentas de BI são fundamentais para embasar decisões informadas, levando a melhorias significativas nos processos e ao aumento da eficiência operacional. O dashboard foi desenvolvido com tecnologias HTML, CSS e JavaScript.",
+		"tecnologia": {
+			"html": "icon/html.svg",
+			"css": "icon/css.svg",
+			"javascript": "icon/js.svg"
+		},
+		"acesso": {
+			"deploy": "https://sgi-websam2s-projects.vercel.app/",
+			"github": "https://github.com/websam2/SGI"
+		}
+	},
+	{
+		"id": 6,
+		"banner": "image/caixa-feliz.png",
+		"titulo": "Caixa Feliz",
+		"descricao": "CAIXA FELIZ é um aplicativo mobile que funciona como um caixa virtual, com histórico contábil simples, tudo armazenado localmente no celular. O aplicativo é totalmente gratuito e comunitário, e foi desenvolvido usando as tecnologias React Native e Expo. Ainda está em desenvolvimento, mas já está pronto para ser usado.",
+		"tecnologia": {
+			"react": "icon/react.svg",
+			"expo": "icon/expo.svg"
+		},
+		"acesso": {
+			"deploy": "https://snack.expo.dev/SGv6_4jECB6ODojgr2BKR",
+			"github": "https://github.com/websam2/app-caixa-feliz"
+		}
+	}
+]
