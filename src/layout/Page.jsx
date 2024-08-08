@@ -15,7 +15,7 @@ const Page = () => {
 	};
 
 	useEffect(() => {
-		fetch("/links.json")
+		fetch("/data/links.json")
 			.then((response) => response.json())
 			.then((data) => {
 				// Ordena os links de cada seção alfabeticamente pelo nameUrl
