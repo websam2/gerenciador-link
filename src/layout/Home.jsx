@@ -35,13 +35,13 @@ const Home = () => {
 			<FavoriteButton />
 			<div className="flex flex-col items-center">
 				<img className="w-12 xl:w-20 mb-4" src={logoDAEE} alt="DAEE" />
-				<h1 className="text-wrap font-bold text-text text-md mb-4">
+				<h1 className="text-wrap font-bold text-white text-md mb-4">
 					Todos os sites em um único só lugar!
 				</h1>
 			</div>
 
 			<div>
-				<p className="text-base text-bg">MAIS ACESSADOS</p>
+				<p className="text-base text-white">MAIS ACESSADOS</p>
 
 				<div className="flex w-full xl:space-x-4 space-x-1 mb-4">
 					<Button href="https://governosp.sharepoint.com/sites/intranet.daee/SitePages/TopicHome.aspx">
@@ -55,7 +55,7 @@ const Home = () => {
 			</div>
 
 			<div className="flex flex-col items-center">
-				<p className="text-base text-bg">EVENTOS</p>
+				<p className="text-base text-white">EVENTOS</p>
 				{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 				<div
 					className="slide-container xl:cursor-pointer"
@@ -71,7 +71,7 @@ const Home = () => {
 
 			<Accordion />
 			<div className="w-full">
-				<p className="text-base text-bg">LISTA TELEFÔNICA</p>
+				<p className="text-base text-white">LISTA TELEFÔNICA</p>
 				<Search />
 			</div>
 
@@ -85,7 +85,7 @@ const Home = () => {
 						/>
 						<button
 							type="button"
-							className="absolute bg-red-dark top-4 right-4 bg-white text-text py-2 px-4 rounded"
+							className="absolute bg-red-dark top-4 right-4 bg-white text-white py-2 px-4 rounded"
 							onClick={closeFullScreen}
 						>
 							Fechar

@@ -42,13 +42,10 @@ const Search = () => {
 			/>
 			<div className=" overflow-clip">
 				{results.map((result) => (
-					<div
-						key={result.id}
-						className="p-2 border-b border-blue-dark"
-					>
-						<p className="font-bold text-text text-wrap">{result.nome}</p>
-						<p className="text-text">{result.telefone}</p>
-						<p className="text-text">{result.email}</p>
+					<div key={result.id} className="p-2 border-b border-blue-dark">
+						<p className="font-bold text-white text-wrap">{result.nome}</p>
+						<p className="text-white">{result.telefone}</p>
+						<p className="text-white">{result.email}</p>
 					</div>
 				))}
 			</div>

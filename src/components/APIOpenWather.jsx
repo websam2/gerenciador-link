@@ -66,7 +66,7 @@ export default function APITempoLocal() {
 			{weatherData.map((data) => (
 				<div
 					key={data.name}
-					className="flex flex-col text-text rounded-md border-2 p-4"
+					className="flex flex-col text-white rounded-md border-2 p-4"
 				>
 					<div className="flex flex-row justify-between">
 						<div className="flex flex-col m-2">

@@ -42,7 +42,7 @@ const Page = () => {
 				{links.map((section) => (
 					<div
 						key={section.id}
-						className="group flex relative items-center justify-center hover:w-full flex-col w-1/2 bg-gradient-to-r from-text to-bg hover:from-gray-light hover:to-gray hover:brightness-120 hover:shadow-lg transition-all"
+						className="group flex relative items-center shadow-xl justify-center hover:w-full flex-col w-1/2 bg-gradient-to-r from-white to-gray-light hover:from-gray-light hover:to-gray hover:brightness-120 hover:shadow-lg transition-all"
 					>
 						<ul className="w-full">
 							{section.links.map((item) => (
@@ -55,26 +55,28 @@ const Page = () => {
 							))}
 						</ul>
 
-						<div className="hidden xl:block absolute w-52 text-xl text-nowrap text-center font-semibold p-4 bg-red-dark text-bg uppercase inset-y-auto right-auto bottom-28 rotate-90">
+						<div className="hidden xl:block absolute w-52 text-xl text-nowrap text-center font-semibold p-4 bg-red-dark text-white uppercase inset-y-auto right-auto bottom-28 rotate-90">
 							{section.name}
 						</div>
 					</div>
 				))}
 			</section>
-			<section className="block xl:hidden relative">
+
+			{/* mobile */}
+			<section className="block xl:hidden relative bg-blue">
 				{links.map((section) => {
 					const isCollapsed = collapsedSections[section.id];
 					return (
 						<div key={section.id}>
 							<button
 								type="button"
-								className="relative flex bg-button text-text items-center w-full p-4 transition-all ease-in group border"
+								className="relative flex bg-button text-white items-center w-full p-4 transition-all ease-in group border"
 								onClick={() => handleToggle(section.id)}
 							>
 								<h1 className="font-bold text-sm mr-4">{section.name}</h1>
 								<FontAwesomeIcon
 									icon={faChevronDown}
-									className={`absolute text-text right-0 m-4 transition-transform ${
+									className={`absolute text-white right-0 m-4 transition-transform ${
 										isCollapsed ? "" : "rotate-180"
 									}`}
 								/>
