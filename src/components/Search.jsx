@@ -7,10 +7,10 @@ const Search = () => {
 
 	useEffect(() => {
 		const fetchData = async () => {
-			const response = await fetch("/data/funcionarios.json");
+			const response = await fetch("/data/listaTelefonica.json");
 			if (response.ok) {
 				const json = await response.json();
-				setData(json.Funcionarios);
+				setData(json.listaTelefonica);
 			} else {
 				console.error("Erro ao carregar o arquivo JSON:", response.status);
 			}
@@ -22,7 +22,7 @@ const Search = () => {
 		if (searchTerm) {
 			const filteredResults = data
 				.filter((item) =>
-					item.Nome.toLowerCase().includes(searchTerm.toLowerCase()),
+					item.nome.toLowerCase().includes(searchTerm.toLowerCase()),
 				)
 				.slice(0, 2);
 			setResults(filteredResults);
@@ -43,11 +43,12 @@ const Search = () => {
 			<div className=" overflow-clip">
 				{results.map((result) => (
 					<div
-						key={result.Prontuário}
+						key={result.id}
 						className="p-2 border-b border-blue-dark"
 					>
-						<p className="font-bold text-text text-wrap">{result.Nome}</p>
-						<p className="text-text">{result["Telefone Comercial"]}</p>
+						<p className="font-bold text-text text-wrap">{result.nome}</p>
+						<p className="text-text">{result.telefone}</p>
+						<p className="text-text">{result.email}</p>
 					</div>
 				))}
 			</div>
