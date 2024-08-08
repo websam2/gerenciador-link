@@ -90,7 +90,7 @@ function Button() {
           </div>
         </div>
       ) : (
-        <p>Nenhum aniversariante neste mês.</p>
+        <p className="text-text">Nenhum aniversariante neste mês.</p>
       )}
     </div>
   );
