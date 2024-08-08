@@ -7,11 +7,14 @@ const Search = () => {
 
 	useEffect(() => {
 		const fetchData = async () => {
-			const response = await fetch("/src/assets/funcionarios.json");
-			const json = await response.json();
-			setData(json.Funcionarios);
+			const response = await fetch("/data/funcionarios.json");
+			if (response.ok) {
+				const json = await response.json();
+				setData(json.Funcionarios);
+			} else {
+				console.error("Erro ao carregar o arquivo JSON:", response.status);
+			}
 		};
-
 		fetchData();
 	}, []);
 
@@ -39,7 +42,10 @@ const Search = () => {
 			/>
 			<div className=" overflow-clip">
 				{results.map((result) => (
-					<div key={result.Prontuário} className="p-2 border-b border-blue-dark">
+					<div
+						key={result.Prontuário}
+						className="p-2 border-b border-blue-dark"
+					>
 						<p className="font-bold text-text text-wrap">{result.Nome}</p>
 						<p className="text-text">{result["Telefone Comercial"]}</p>
 					</div>

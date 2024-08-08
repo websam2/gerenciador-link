@@ -35,7 +35,7 @@ const Home = () => {
 			<FavoriteButton />
 			<div className="flex flex-col items-center">
 				<img className="w-12 xl:w-20 mb-4" src={logoDAEE} alt="DAEE" />
-				<h1 className="text-wrap font-bold text-text text-md">
+				<h1 className="text-wrap font-bold text-text text-md mb-4">
 					Todos os sites em um único só lugar!
 				</h1>
 			</div>
@@ -43,7 +43,7 @@ const Home = () => {
 			<div>
 				<p className="text-base text-bg">MAIS ACESSADOS</p>
 
-				<div className="flex w-full space-x-4 p-2">
+				<div className="flex w-full xl:space-x-4 space-x-1 mb-4">
 					<Button href="https://governosp.sharepoint.com/sites/intranet.daee/SitePages/TopicHome.aspx">
 						Intranet
 					</Button>
