@@ -55,7 +55,7 @@ const Page = () => {
 							))}
 						</ul>
 
-						<div className="hidden xl:block absolute w-52 text-xl text-nowrap text-center font-semibold p-4 bg-red-dark text-white uppercase inset-y-auto right-auto bottom-28 rotate-90">
+						<div className="hidden xl:block absolute w-52 group-hover:w-36 group-hover:text-sm transition-all text-xl text-nowrap text-center font-semibold p-4 bg-red-dark text-white uppercase inset-y-auto right-auto bottom-28 rotate-90">
 							{section.name}
 						</div>
 					</div>
