@@ -3,12 +3,11 @@ import logoDAEE from "/logoDAEE.svg";
 import Accordion from "../components/Accordion";
 import Button from "../components/Button";
 
-import Sei from "../assets/images/Agora sou SEI.jpg";
-import Encontro from "../assets/images/Encontro com as ouvidorias.jpg";
+import Ouvidoria from "../assets/images/Ouvidoria.jpg";
 import FavoriteButton from "../components/FavoriteButton";
 import Search from "../components/Search";
 
-const images = [Encontro, Sei];
+const images = [Ouvidoria];
 
 const Home = () => {
 	const [isFullScreen, setIsFullScreen] = useState(false);
@@ -85,7 +84,7 @@ const Home = () => {
 						/>
 						<button
 							type="button"
-							className="absolute bg-red-dark top-4 right-4 bg-white text-white py-2 px-4 rounded"
+							className="absolute bg-red-dark top-4 right-4 text-white py-2 px-4 rounded"
 							onClick={closeFullScreen}
 						>
 							Fechar
