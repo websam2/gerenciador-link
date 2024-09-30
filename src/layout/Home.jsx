@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logoDAEE from "/logoDAEE.svg";
+import logoDAEE from "/SPAguas.svg";
 import Accordion from "../components/Accordion";
 import Button from "../components/Button";
 
@@ -33,7 +33,7 @@ const Home = () => {
 		<section className="flex flex-col p-4 items-center h-full xl:w-1/3 xl:justify-between relative bg-gradient-to-bl from-blue-dark to-blue text-center">
 			<FavoriteButton />
 			<div className="flex flex-col items-center">
-				<img className="w-12 xl:w-20 mb-4" src={logoDAEE} alt="DAEE" />
+				<img className="w-12 xl:w-28 mb-4" src={logoDAEE} alt="DAEE" />
 				<h1 className="text-wrap font-bold text-white text-md mb-4">
 					Todos os sites em um único só lugar!
 				</h1>
@@ -54,9 +54,8 @@ const Home = () => {
 			</div>
 
 			<div className="flex flex-col items-center">
-				<p className="text-base text-white">EVENTOS</p>
-				{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
-				<div
+			<Button href="https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_daee_sp_gov_br/Eh9_uoF_rU1Gvc896VchcGcBwwoT4wGPQlnGGChor_s6TA">MANUAL DE COMUNICAÇÃO VISUAL</Button>
+				{/* <div
 					className="slide-container xl:cursor-pointer"
 					onClick={openFullScreen}
 				>
@@ -65,7 +64,7 @@ const Home = () => {
 						src={images[currentImageIndex]}
 						alt="Evento"
 					/>
-				</div>
+				</div> */}
 			</div>
 
 			<Accordion />
