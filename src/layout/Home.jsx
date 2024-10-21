@@ -54,7 +54,7 @@ const Home = () => {
 			</div>
 
 			<div className="flex flex-col items-center">
-				<Button href="https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_daee_sp_gov_br/Eh9_uoF_rU1Gvc896VchcGcBwwoT4wGPQlnGGChor_s6TA">
+				<Button href="https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_spaguas_sp_gov_br/Eh9_uoF_rU1Gvc896VchcGcBwwoT4wGPQlnGGChor_s6TA">
 					COMUNICAÇÃO VISUAL
 				</Button>
 				{/* <div
