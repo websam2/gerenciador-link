@@ -10,7 +10,7 @@ const FavoriteButton = () => {
 		<button
 			type="button"
 			onClick={handleAddToFavorites}
-			className="hidden xl:block absolute top-0 right-0 m-4 text-yellow"
+			className="hidden lg:block absolute top-0 right-0 m-4 text-yellow"
 		>
 			<FontAwesomeIcon icon={faStar} />
 		</button>

@@ -4,7 +4,7 @@ import Page from "./layout/Page"
 
 function App () {
   return (
-    <div className="flex flex-col h-full xl:flex-row xl:w-screen xl:h-screen">
+    <div className="flex flex-col h-full lg:flex-row lg:w-screen lg:h-screen">
       <Home/>
       <Page/>
     </div>

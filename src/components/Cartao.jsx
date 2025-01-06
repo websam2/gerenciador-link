@@ -18,7 +18,7 @@ function Cartao({ projetoId }) {
 					id="banner"
 				/>
 				<div className="rounded-lg shadow-lg p-10 space-y-6 md:space-y-10">
-					<h2 className="text-lg font-bold text-yellow xl:text-xl 2xl:text-2xl">
+					<h2 className="text-lg font-bold text-yellow lg:text-xl 2lg:text-2xl">
 						{projeto.titulo}
 					</h2>
 					<p className="text-blue md:text-md lg:text-lg">

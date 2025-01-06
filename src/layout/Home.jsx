@@ -30,10 +30,10 @@ const Home = () => {
 	}, []);
 
 	return (
-		<section className="flex flex-col p-4 items-center h-full xl:w-1/3 xl:justify-between relative bg-gradient-to-bl from-blue-dark to-blue text-center">
+		<section className="flex flex-col p-4 items-center h-full lg:w-1/3 lg:justify-between relative bg-gradient-to-bl from-blue-dark to-blue text-center">
 			<FavoriteButton />
 			<div className="flex flex-col items-center">
-				<img className="w-12 xl:w-28 mb-4" src={logoDAEE} alt="DAEE" />
+				<img className="w-12 lg:w-28 mb-4" src={logoDAEE} alt="DAEE" />
 				<h1 className="text-wrap font-bold text-white text-md mb-4">
 					Todos os sites em um único só lugar!
 				</h1>
@@ -42,7 +42,7 @@ const Home = () => {
 			<div>
 				<p className="text-base text-white">MAIS ACESSADOS</p>
 
-				<div className="flex w-full xl:space-x-4 space-x-1 mb-4">
+				<div className="flex lg:flex-wrap lg:space-x-4 lg:justify-center space-x-1 mb-4">
 					<Button href="https://governosp.sharepoint.com/sites/intranet.daee/SitePages/TopicHome.aspx">
 						Intranet
 					</Button>
@@ -50,23 +50,10 @@ const Home = () => {
 					<Button href="https://sgi-websam2s-projects.vercel.app/">SGI</Button>
 					<Button href="https://doe.sp.gov.br/sumario">DOE</Button>
 					<Button href="https://www.imprensaoficial.com.br/">Imprensa</Button>
-				</div>
-			</div>
-
-			<div className="flex flex-col items-center">
-				<Button href="https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_spaguas_sp_gov_br/Eh9_uoF_rU1Gvc896VchcGcBwwoT4wGPQlnGGChor_s6TA">
-					COMUNICAÇÃO VISUAL
+					<Button href="https://governosp-my.sharepoint.com/:f:/g/personal/samuel_zezilia_spaguas_sp_gov_br/Eh9_uoF_rU1Gvc896VchcGcBwwoT4wGPQlnGGChor_s6TA">
+					Comunicação
 				</Button>
-				{/* <div
-					className="slide-container xl:cursor-pointer"
-					onClick={openFullScreen}
-				>
-					<img
-						className="slide-image"
-						src={images[currentImageIndex]}
-						alt="Evento"
-					/>
-				</div> */}
+				</div>
 			</div>
 
 			<Accordion />

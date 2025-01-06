@@ -58,7 +58,7 @@ function Button() {
 						className="relative flex items-center w-full p-4 transition-all ease-in cursor-pointer group"
 						onClick={handleToggle}
 					>
-						<h1 className="font-bold text-white xl:text-xl mr-4 uppercase">
+						<h1 className="font-bold text-white lg:text-xl mr-4 uppercase">
 							Aniversariantes de {currentMonth}
 						</h1>
 						<FontAwesomeIcon
