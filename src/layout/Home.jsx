@@ -50,7 +50,7 @@ const Home = () => {
 					<Button href="https://sgi-spaguas.vercel.app/">SGI</Button>
 					<Button href="https://doe.sp.gov.br/sumario">DOE</Button>
 					<Button href="https://resumo-fiscalizacao.vercel.app/">
-					Resumo Fiscalização (em desenvolvimento)
+					Resumo Fiscalização
 				</Button>
 				</div>
 			</div>
